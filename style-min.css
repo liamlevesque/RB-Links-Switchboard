@@ -46,9 +46,9 @@ hr {
       -ms-flex-align: stretch;
           align-items: stretch; }
 
-.link {
+.link, [class^="link_"] {
   display: inline-block;
-  width: 100%;
+  width: 140px;
   margin-right: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -57,7 +57,15 @@ hr {
   color: var(--grey-x-dark);
   border-radius: 5px;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
-  vertical-align: top; }
+  vertical-align: top;
+  border-bottom: 8px solid var(--brandcolor); }
+
+.link_alt {
+  border-bottom: 8px solid #1fb6ff; }
+
+.link_alt:hover {
+  background-color: #1fb6ff;
+  color: white; }
 
 .link:hover {
   background-color: var(--brandcolor);
