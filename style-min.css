@@ -1,0 +1,68 @@
+:root {
+  --brandcolor: #E87722;
+  --brandcolor-dark: #C1631C;
+  --grey-base: #bfc0be;
+  --grey-x-light: #F0F0F0;
+  --grey-light: #E9E9E9;
+  --grey-dark: #585858;
+  --grey-x-dark: #333333; }
+
+body {
+  font-family: "Trebuchet MS";
+  font-size: 18px;
+  line-height: 24px; }
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--brandcolor); }
+
+hr {
+  height: 0;
+  border: none;
+  border-bottom: 1px dotted var(--grey-base);
+  margin-bottom: 20px; }
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.link-group {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+
+.link {
+  display: inline-block;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: var(--grey-light);
+  color: var(--grey-x-dark);
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+  vertical-align: top; }
+
+.link:hover {
+  background-color: var(--brandcolor);
+  color: white; }
+
+@media (min-width: 30.0625em) {
+  .link {
+    width: 140px; } }
