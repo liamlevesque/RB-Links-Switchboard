@@ -67,6 +67,16 @@ hr{
 			color: white;
 		}
 
+		.link--icon{
+			text-align: center;
+		}
+
+			.link--icon img{
+				display: inline-block;
+				width: 70px;
+			}
+		
+
 	.link:hover{
 		background-color: var(--brandcolor);
 		color: white;

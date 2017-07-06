@@ -32,6 +32,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/mail-icon.png": {
+		"ft": 32768,
+		"iS": 1406,
+		"oA": 0,
+		"oAP": "\/mail-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/marvel-icon.png": {
+		"ft": 32768,
+		"iS": 5820,
+		"oA": 0,
+		"oAP": "\/marvel-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/style-min.css": {
 		"aP": 1,
 		"bl": 0,
