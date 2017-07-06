@@ -9,6 +9,10 @@
     --grey-x-dark: #333333;
 }
 
+*{
+	box-sizing: border-box;
+}
+
 body{
 	font-family: "Trebuchet MS";
 	font-size: 18px;
@@ -45,8 +49,9 @@ hr{
 
 	.link, [class^="link_"]{
 		display: inline-block;
-		width: 140px;
-		margin-right: 20px;
+		width: 100%;
+		position: relative;
+		margin-right: 2%;
 		margin-bottom: 20px;
 		padding:20px;
 		text-decoration: none;
@@ -56,6 +61,7 @@ hr{
 		box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5);
 		vertical-align: top;
 		border-bottom: 8px solid var(--brandcolor);
+		padding-left: 50px;
 	}
 
 		.link_alt{
@@ -68,12 +74,15 @@ hr{
 		}
 
 		.link--icon{
-			text-align: center;
+			position: absolute;
+			left: 3px;
+			top: 15px;
+			width: 40px;
 		}
 
 			.link--icon img{
 				display: inline-block;
-				width: 70px;
+				width: 40px;
 			}
 		
 
@@ -85,8 +94,9 @@ hr{
 
 @media (min-width: 30.0625em)  { 
 	
-	.link{
-		width: 140px;
+	.link, .link_alt{
+		width: 23%;
+		min-width: 140px;
 	}
 
 }
