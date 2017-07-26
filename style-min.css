@@ -68,8 +68,15 @@ hr {
 .link_alt {
   border-bottom: 8px solid #1fb6ff; }
 
+.link_doc {
+  border-bottom: 8px solid #008B24; }
+
 .link_alt:hover {
   background-color: #1fb6ff;
+  color: white; }
+
+.link_doc:hover {
+  background-color: #008B24;
   color: white; }
 
 .link--icon {
@@ -87,6 +94,6 @@ hr {
   color: white; }
 
 @media (min-width: 30.0625em) {
-  .link, .link_alt {
+  .link, .link_alt, .link_doc {
     width: 23%;
     min-width: 140px; } }

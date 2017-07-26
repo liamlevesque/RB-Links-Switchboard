@@ -9,10 +9,27 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/excel-icon.png": {
+		"ft": 32768,
+		"iS": 859,
+		"oA": 0,
+		"oAP": "\/excel-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/icons.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icons.ai",
 		"oF": 0
 		},
 	"\/index.html": {
@@ -20,6 +37,17 @@
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/interactive-icon.png": {
+		"ft": 32768,
+		"iS": 976,
+		"oA": 0,
+		"oAP": "\/interactive-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/logo-square.png": {
 		"ft": 32768,
